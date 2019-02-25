@@ -1,0 +1,24 @@
+ body {
+    background-color: #0e6004;
+ }
+ h1 {
+   color: #ddd
+ }
+ h2 {
+   color: #fff
+ }
+ #score,
+ #score2 {
+   color:#ddd;
+   font-size:20px
+ }
+div.dice{
+    width: 32px;
+    background: #ddd;
+    float: left;
+    padding:10px;
+    border: solid 1px #999;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px
+  }

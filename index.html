@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2 Player Dice Game</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script type='text/javascript' src='http://code.jquery.com/jquery.min.js'></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <h1>Dice Game - 2 player Game</h1>
+    <div style="width:50%; display:inline-block;float:left">
+      <h2>Player 1</h2>
+      <img src="images/1.png" name="mydice1">
+      <img src="images/1.png" name="mydice2">
+    <h1>Total Score:</h1>
+    <div id="score"></div>
+    <div id="die1" class="dice">0</div>
+    <div id="die2" class="dice">0</div>
+    <h2 id="status" style="clear:left"></h2>
+    <button id="button1" onclick="rollDicePlayer1()" >Roll Dice</button>
+    </div>
+    <div style="width:50%; display:inline-block;float:right">
+      <h2>Player 2</h2>
+      <img src="images/1.png" name="mydice3">
+      <img src="images/1.png" name="mydice4">
+    <h1>Total Score:</h1>
+    <div id="score2"></div>
+    <div id="die3" class="dice">0</div>
+    <div id="die4" class="dice">0</div>
+    <h2 id="status2" style="clear:left"></h2>
+    <button id="button2" onclick="rollDicePlayer2()">Roll Dice</button>
+    </div>
+  </body>
+</html>
